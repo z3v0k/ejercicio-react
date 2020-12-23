@@ -1,0 +1,31 @@
+.slider-amount-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.slider-amount-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.slider-amount-control {
+  display: flex;
+  padding: 0 30px 0 30px;
+}
+
+.slider-amount-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+.texbox {
+  height: 25px;
+  font-size: 18px;
+  background-color: #003b67;
+  color: white;
+  border: 1px solid;
+}

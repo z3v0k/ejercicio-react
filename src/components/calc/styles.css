@@ -1,0 +1,45 @@
+.calc-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.calc-value {
+  display: flex;
+  justify-content: center;
+  background-color: #00355d;
+}
+
+.calc-value .lbl {
+  font-size: 18px;
+  align-self: center;
+  padding: 10px;
+}
+
+.calc-value .val {
+  font-size: 32px;
+}
+
+button {
+  height: 60px;
+  color: white;
+}
+
+.calc-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.calc-btn .credit {
+  width: 70%;
+  font-size: 24px;
+  margin-right: 5px;
+  background-color: #28963c;
+}
+
+.calc-btn .detail {
+  width: 30%;
+  font-size: 20px;
+  background-color: #0b548b;
+}
